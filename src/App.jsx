@@ -1255,7 +1255,7 @@ const Skills = () => {
           </motion.h2>
           
           <motion.a
-            href="images/documents/cv.pdf"
+            href="/cv.pdf"
             download="Mahmudul_Hasan_CV.pdf"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
