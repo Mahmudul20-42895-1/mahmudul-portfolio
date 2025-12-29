@@ -1255,8 +1255,10 @@ const Skills = () => {
           </motion.h2>
           
           <motion.a
-            href="/cv.pdf"
+            href="/cv.pdf"  // Simple path
             download="Mahmudul_Hasan_CV.pdf"
+            target="_blank"  // Add this
+            rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
